@@ -9,25 +9,25 @@ var myName = "Ammon";
 
 //Create a variable called myAge that is a number data type
 
-var myAge = 24;//Code here
+var myAge = 24; //Code here
 
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
-let lovesCode = true;//Code here
+let lovesCode = true; //Code here
 
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
-var greatestFear = undefined
+var greatestFear = undefined;
 //Code here
 
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
-let devMountainGoal = null;//Code here
+let devMountainGoal = null; //Code here
 
 //////////////////PROBLEM 6////////////////////
 
@@ -36,20 +36,19 @@ let devMountainGoal = null;//Code here
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-function greeting(name){
+function greeting(name) {
   return "Hello, " + name;
-    }
-    //Code here
+}
+//Code here
 
 //////////////////PROBLEM 7////////////////////
 
 //Write a function expression called newGreeting.
 //Give it the same functionality as the function greeting in Problem 6.
 
-let newGreeting = function(name){
-
+let newGreeting = function(name) {
   return "Hello, " + name;
-}
+};
 
 //Code Here
 
@@ -58,7 +57,7 @@ let newGreeting = function(name){
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-const groceries = ['apples', 'milk', 'eggs', 'bread'];
+const groceries = ["apples", "milk", "eggs", "bread"];
 
 //Code Here
 
@@ -70,7 +69,7 @@ const groceries = ['apples', 'milk', 'eggs', 'bread'];
 //and goodBoy (a boolean).
 
 let dog = {
-  name: "Spike", 
+  name: "Spike",
   color: "Black",
   age: 6,
   goodBoy: true
@@ -92,14 +91,13 @@ var devMountainClassPet = "Spike";
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
 function nameCheck(name) {
-if (name == 'Steven'){
-return 'What is up Steven?';
-} else if (name == 'Bryan') {
-return 'Hey Bryan!';
-} else {
-  return 'Cool name, ' + name;
-}
-
+  if (name == "Steven") {
+    return "What is up Steven?";
+  } else if (name == "Bryan") {
+    return "Hey Bryan!";
+  } else {
+    return "Cool name, " + name;
+  }
 }
 // Code here
 
@@ -109,18 +107,14 @@ return 'Hey Bryan!';
 // that will be numbers.
 // The add function should return the two parameters added together
 
-function add(num1, num2)
-{ return num1 + num2;
-
-
-
-
+function add(num1, num2) {
+  return num1 + num2;
 }
 //Code Here
 
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
-var mathSum = add(3,4);
+var mathSum = add(3, 4);
 //Code Here
 
 //////////////////PROBLEM 12////////////////////
@@ -132,17 +126,16 @@ var mathSum = add(3,4);
 // If the passed in color equals 'black', return 'so trendy'
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
-function faveColorFinder(color){
-if (color == 'red'){ 
-return "red is a great color";
-} else if (color == 'green'){
- return "green is a solid favorite color"
-}else if (color == 'black'){
-return "so trendy"
-}else { 
-  return 'you need to evaluate your favorite color choice'
-}
-
+function faveColorFinder(color) {
+  if (color == "red") {
+    return "red is a great color";
+  } else if (color == "green") {
+    return "green is a solid favorite color";
+  } else if (color == "black") {
+    return "so trendy";
+  } else {
+    return "you need to evaluate your favorite color choice";
+  }
 }
 // Code here
 
@@ -171,7 +164,7 @@ function pond() {
 let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["duck", "rubberDuck",];
+let bathroomScope = ["duck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
 let bathtubScope = ["duck", "sailorDuck", "rubberDuck"];
